@@ -1,0 +1,67 @@
+.Sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PlantList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.Cart {
+    width: 50%;
+}
+
+.CartList {
+    list-style-type: none;
+}
+.Item {
+    width: 200px;
+    height: 300px;
+}
+
+.Image {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.Name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.AddToCart {
+    font-size: 2rem;
+    margin: 11px;
+}
+
+.CartItem {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.Quantity {
+    font-size: 2rem;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.CartButton {
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+}
+
+.QuantityVal {
+    margin: 0px;
+}
+
+.Title {
+    font-size: 3rem;
+}

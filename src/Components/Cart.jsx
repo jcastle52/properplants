@@ -1,4 +1,8 @@
-export default function Cart({ cart, plants, setCart }) {
+import { useContext } from "react";
+import { PlantContext } from "./PlantContext";
+
+export default function Cart() {
+  const { plants, cart, setCart,} = useContext(PlantContext);
 
   const RemoveItem = (item) => {
     const cartCopy = [...cart];
